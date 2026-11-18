@@ -4,3 +4,8 @@
 /* Offizielles Logo mit transparentem Hintergrund */
 .brand-logo{display:block;width:auto;height:82px;max-width:250px;object-fit:contain}
 @media(max-width:760px){.brand-logo{height:72px}}
+
+/* Schriftzug rechts neben dem freigestellten Logo */
+.brand-name{display:block;font-size:clamp(16px,1.65vw,21px);font-weight:780;line-height:1.15;letter-spacing:.01em;color:var(--forest)}
+.brand{flex-shrink:0;gap:14px}
+@media(max-width:760px){.brand-name{font-size:17px}.brand-logo{height:66px}.brand{gap:10px}}
