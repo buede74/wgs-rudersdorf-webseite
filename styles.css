@@ -9,3 +9,10 @@
 .brand-name{display:block;font-size:clamp(16px,1.65vw,21px);font-weight:780;line-height:1.15;letter-spacing:.01em;color:var(--forest)}
 .brand{flex-shrink:0;gap:14px}
 @media(max-width:760px){.brand-name{font-size:17px}.brand-logo{height:66px}.brand{gap:10px}}
+
+/* Kopfbereich: freigestelltes Logo, rechts daneben der bisherige Schriftzug. */
+.nav{padding-top:12px;padding-bottom:12px}
+.brand{gap:18px;flex-shrink:0}
+.brand-logo{height:112px;width:auto;max-width:none;object-fit:contain}
+.brand-name{font-size:clamp(18px,1.65vw,22px);line-height:1.17}
+@media(max-width:760px){.nav{padding-top:10px;padding-bottom:10px}.brand{gap:12px}.brand-logo{height:86px}.brand-name{font-size:17px}}
